@@ -4,53 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primera Página Web</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-image: url('./imagenes/fondo\ cielo.jpg');
-            background-size: cover;
-            background-attachment: fixed;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        h1 {
-            text-align: center; 
-            color: #333; 
-            font-weight: bold; 
-            margin-bottom: 50px;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            background-color: rgba(255, 255, 255, 0.8);
-            margin: 10px;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-        .highlight {
-            color: #5b9bd5;
-            font-weight: bold;
-        }
-        img {
-            display: block;
-            margin: 20px auto;
-        }
-        a {
-            display: block;
-            text-align: center;
-            margin: 20px;
-            color: #5b9bd5;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
     <h1>MI IDENTIDAD DIGITAL</h1>
@@ -65,5 +19,7 @@
     </ul>
     <img src="./imagenes/digital.jpeg" alt="programando" width="300px" />
     <a href="https://www.facebook.com/tu_usuario" target="_blank">Visita mi Facebook</a>
+    <button type="button" onclick="saludar()">saludar</button>
+    <script src="./scripts/index.js"></script>
 </body>
 </html>

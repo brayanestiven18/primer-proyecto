@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../imagenes/fondo\ cielo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center; 
+    color: #333; 
+    font-weight: bold; 
+    margin-bottom: 50px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.highlight {
+    color: #5b9bd5;
+    font-weight: bold;
+}
+img {
+    display: block;
+    margin: 20px auto;
+}
+a {
+    display: block;
+    text-align: center;
+    margin: 20px;
+    color: #5b9bd5;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: underline;
+}
